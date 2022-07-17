@@ -171,45 +171,8 @@ display: flex;
     height: 4px;
     margin: 7px 1px;
 }
-@media only screen and (max-width: 1140px){
-    .nav-list{
-        flex-direction: column;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 0;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: #000;
-        transition: top 1s ease;
-        display: none;
-    }
-    .navbar{
-        height: 777px;
-        flex-direction: column;
-        transition: all 0.7s ease-out;
-    }
-    .rightNav{
-        text-align: center;
-    }
-    #search{
-        width: 100%;
-    }
-    .icons{
-        display: block;
-    }
-    .h-nav{
-        height: 72px;
-    }
-    .v-class{
-        opacity: 0;
-    }
 
-}
-
+  
 
 
 
